@@ -1,3 +1,6 @@
+@import "./variables";
+
+
 *{
 margin: 0;
 padding: 0;
@@ -9,6 +12,7 @@ box-sizing: border-box;
     display: flex;
     justify-content: space-between;
     margin: 25px 250px;
+    @include margin30;
 
         .nav{
             height: auto;
@@ -24,7 +28,7 @@ box-sizing: border-box;
 
 }
 
-.introduction{
+.heading-bg{
     background: url(../img/atlanta-made-sign.jpg)
     repeat fixed 50%;
     padding-top: 10%;
@@ -35,12 +39,12 @@ box-sizing: border-box;
             flex-direction: column;
             align-items: center;
 
-                .intro{
+                .name{
                     color: white;
                     font-size: 40px;
                 }
 
-                .contact{
+                .contact{   
                     color: white;
                     margin: 10px;
                     border: 1px solid black;
@@ -51,6 +55,128 @@ box-sizing: border-box;
                     background-color: orangered;
                     font-size: 20px;
                 }
-        
+        }
+}
+
+.intro
+{
+ 
+    margin: 50px 250px;
+    @include margin30;
+
+    .quote{
+        height: auto;
+        width: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+
+
+        h1{
+            width: auto;
+            font-size: 35px;
+
+            
+            @include responsive(tab) {
+                font-size: 23px;
+                }
+            @include responsive(phone) {
+                font-size: 23px;
+                }
+
+            
+        }
     }
+
+    .introductions{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        padding-top: 40px; 
+      @include flex-column;
+
+            .intro-title{
+                display: flex;
+                margin-right: 10px;
+                flex-direction: column;
+                @include responsive(tab) {
+                    padding-top: 15px;
+                    }
+                @include responsive(phone) {
+                    padding-top: 15px;
+                    }
+            }
+
+                p{
+                  width: 250px;
+                    font-size: 13px;
+                    padding-top: 10px;
+                    text-align: center;
+                    @include responsive(tab) {
+                        align-content: center;
+                        align-items: center;
+                        margin-right: 20px;
+                        margin-left: 20px;
+                        }
+                    @include responsive(phone) {
+                       align-content: center;
+                       align-items: center;
+                       margin-right: 20px;
+                       margin-left: 20px;
+                        }
+                }
+    }
+
+    .feedback{
+       display: flex;
+       text-align: center;
+        padding-top: 50px;
+        width: auto;
+        justify-content: center;
+
+        @include responsive(tab) {
+            padding-top: 20px;
+            }
+        @include responsive(phone) {
+            padding-top: 20px;
+            }
+
+            p{
+                width: 50%;
+                @include responsive(tab) {
+                    width: auto;
+                   
+                    }
+                @include responsive(phone) {
+                    width: auto;
+                    
+                    }
+            }
+    }
+}
+
+.bg-2{
+    background: url(../img/atlanta-made-sign-orange.jpg)
+    repeat fixed 50%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+
+        .bg-2-inside{
+           background:url(../img/texture-paper.png) repeat;
+           opacity: 0.5;
+           filter: contrast(100);
+           z-index: 1;
+           height: 100%;
+           border: 10px solid black;
+            
+            .bg-quote{
+                @include border;
+                
+            }
+                p{
+                    margin: 40px;
+                    text-align: center;
+                }
+        }
 }

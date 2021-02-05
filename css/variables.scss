@@ -1,0 +1,45 @@
+
+@mixin responsive($breakpoint) {
+    @if $breakpoint == phone {
+        @media only screen and (max-width: 600px) { @content};
+    }
+    @if $breakpoint == tab {
+        @media only screen and (max-width: 900px) { @content};
+    }
+    @if $breakpoint == laptop {
+        @media only screen and (max-width: 1400px) { @content};
+    }
+    @if $breakpoint == desktop {
+        @media only screen and (max-width: 1800px) { @content};
+    }
+}
+
+@mixin margin30 {
+    @include responsive(tab) {
+        margin: 10px 30px;
+        }
+    @include responsive(phone) {
+        margin: 10px 30px;
+        }
+} 
+
+
+@mixin border {
+    border: 1px solid black;
+}
+
+
+
+@mixin flex-column {
+       
+    @include responsive(tab) {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        }
+    @include responsive(phone) {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        }
+}

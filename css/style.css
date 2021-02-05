@@ -16,9 +16,20 @@
   margin: 25px 250px;
 }
 
+@media only screen and (max-width: 900px) {
+  .header {
+    margin: 10px 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    margin: 10px 30px;
+  }
+}
+
 .header .nav {
   height: auto;
-  width: 20%;
   width: 20%;
 }
 
@@ -30,13 +41,13 @@
   margin-top: 10px;
 }
 
-.introduction {
+.heading-bg {
   background: url(../img/atlanta-made-sign.jpg) repeat fixed 50%;
   padding-top: 10%;
   padding-bottom: 5%;
 }
 
-.introduction .mike-face {
+.heading-bg .mike-face {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -49,12 +60,12 @@
           align-items: center;
 }
 
-.introduction .mike-face .intro {
+.heading-bg .mike-face .name {
   color: white;
   font-size: 40px;
 }
 
-.introduction .mike-face .contact {
+.heading-bg .mike-face .contact {
   color: white;
   margin: 10px;
   border: 1px solid black;
@@ -64,5 +75,210 @@
   border-radius: 50px;
   background-color: orangered;
   font-size: 20px;
+}
+
+.intro {
+  margin: 50px 250px;
+}
+
+@media only screen and (max-width: 900px) {
+  .intro {
+    margin: 10px 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro {
+    margin: 10px 30px;
+  }
+}
+
+.intro .quote {
+  height: auto;
+  width: auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.intro .quote h1 {
+  width: auto;
+  font-size: 35px;
+}
+
+@media only screen and (max-width: 900px) {
+  .intro .quote h1 {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro .quote h1 {
+    font-size: 23px;
+  }
+}
+
+.intro .introductions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-top: 40px;
+}
+
+@media only screen and (max-width: 900px) {
+  .intro .introductions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro .introductions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 20px;
+  }
+}
+
+.intro .introductions .intro-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (max-width: 900px) {
+  .intro .introductions .intro-title {
+    padding-top: 15px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro .introductions .intro-title {
+    padding-top: 15px;
+  }
+}
+
+.intro .introductions p {
+  width: 250px;
+  font-size: 13px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .intro .introductions p {
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro .introductions p {
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+.intro .feedback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  padding-top: 50px;
+  width: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .intro .feedback {
+    padding-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro .feedback {
+    padding-top: 20px;
+  }
+}
+
+.intro .feedback p {
+  width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  .intro .feedback p {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .intro .feedback p {
+    width: auto;
+  }
+}
+
+.bg-2 {
+  background: url(../img/atlanta-made-sign-orange.jpg) repeat fixed 50%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+}
+
+.bg-2 .bg-2-inside {
+  background: url(../img/texture-paper.png) repeat;
+  opacity: 0.5;
+  -webkit-filter: contrast(100);
+          filter: contrast(100);
+  z-index: 1;
+  height: 100%;
+  border: 10px solid black;
+}
+
+.bg-2 .bg-2-inside .bg-quote {
+  border: 1px solid black;
+}
+
+.bg-2 .bg-2-inside p {
+  margin: 40px;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
