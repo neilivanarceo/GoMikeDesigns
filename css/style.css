@@ -77,23 +77,23 @@
   font-size: 20px;
 }
 
-.intro {
+section.intro {
   margin: 50px 250px;
 }
 
 @media only screen and (max-width: 900px) {
-  .intro {
+  section.intro {
     margin: 10px 30px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .intro {
+  section.intro {
     margin: 10px 30px;
   }
 }
 
-.intro .quote {
+section.intro .quote {
   height: auto;
   width: auto;
   text-align: center;
@@ -105,24 +105,24 @@
           justify-content: center;
 }
 
-.intro .quote h1 {
+section.intro .quote h1 {
   width: auto;
   font-size: 35px;
 }
 
 @media only screen and (max-width: 900px) {
-  .intro .quote h1 {
+  section.intro .quote h1 {
     font-size: 23px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .intro .quote h1 {
+  section.intro .quote h1 {
     font-size: 23px;
   }
 }
 
-.intro .introductions {
+section.intro .introductions {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -138,7 +138,7 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .intro .introductions {
+  section.intro .introductions {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -151,7 +151,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .intro .introductions {
+  section.intro .introductions {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -163,7 +163,7 @@
   }
 }
 
-.intro .introductions .intro-title {
+section.intro .introductions .intro-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,18 +175,18 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .intro .introductions .intro-title {
+  section.intro .introductions .intro-title {
     padding-top: 15px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .intro .introductions .intro-title {
+  section.intro .introductions .intro-title {
     padding-top: 15px;
   }
 }
 
-.intro .introductions p {
+section.intro .introductions p {
   width: 250px;
   font-size: 13px;
   padding-top: 10px;
@@ -194,7 +194,7 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .intro .introductions p {
+  section.intro .introductions p {
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-align: center;
@@ -206,7 +206,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .intro .introductions p {
+  section.intro .introductions p {
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-align: center;
@@ -217,7 +217,7 @@
   }
 }
 
-.intro .feedback {
+section.intro .feedback {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -230,55 +230,326 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .intro .feedback {
+  section.intro .feedback {
     padding-top: 20px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .intro .feedback {
+  section.intro .feedback {
     padding-top: 20px;
   }
 }
 
-.intro .feedback p {
+section.intro .feedback p {
   width: 50%;
 }
 
 @media only screen and (max-width: 900px) {
-  .intro .feedback p {
+  section.intro .feedback p {
     width: auto;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .intro .feedback p {
+  section.intro .feedback p {
     width: auto;
   }
 }
 
 .bg-2 {
   background: url(../img/atlanta-made-sign-orange.jpg) repeat fixed 50%;
-  padding-top: 10%;
-  padding-bottom: 5%;
+  z-index: -1;
 }
 
 .bg-2 .bg-2-inside {
   background: url(../img/texture-paper.png) repeat;
   opacity: 0.5;
-  -webkit-filter: contrast(100);
-          filter: contrast(100);
+  filter: alpha(opacity=50);
   z-index: 1;
   height: 100%;
-  border: 10px solid black;
+  padding-top: 12%;
+  padding-bottom: 5%;
 }
 
 .bg-2 .bg-2-inside .bg-quote {
   border: 1px solid black;
+  z-index: 2;
+  color: #364577;
 }
 
 .bg-2 .bg-2-inside p {
   margin: 40px;
   text-align: center;
+  z-index: 3;
+}
+
+.bg-lines {
+  background: url(../img/lines-h2-bg.png) repeat 100%;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.bg-lines .client-section {
+  margin-left: 250px;
+  margin-right: 250px;
+  height: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .bg-lines .client-section {
+    margin: 10px 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bg-lines .client-section {
+    margin: 10px 30px;
+  }
+}
+
+.bg-lines .client-section .client-intro {
+  height: auto;
+  width: auto;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bg-lines .client-section .client-intro h1 {
+  width: auto;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .bg-lines .client-section .client-intro h1 {
+    font-size: 23px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bg-lines .client-section .client-intro h1 {
+    font-size: 23px;
+  }
+}
+
+.bg-lines .client-section .client-pictures {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(160px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+      grid-template-areas: 'p1 p2' 'p3 p4';
+  text-align: center;
+  width: auto;
+  height: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+  grid-gap: 20px;
+}
+
+.bg-lines .client-section .client-pictures .dog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: p1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bg-lines .client-section .client-pictures .dog h3 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.bg-lines .client-section .client-pictures .dog .definition {
+  font-size: 13px;
+  margin: 20px;
+}
+
+.bg-lines .client-section .client-pictures .dog img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 80%;
+  height: 70%;
+  margin: 20px;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+}
+
+.bg-lines .client-section .client-pictures .cupcakes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: p2;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bg-lines .client-section .client-pictures .cupcakes h3 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.bg-lines .client-section .client-pictures .cupcakes .definition {
+  font-size: 13px;
+  margin: 20px;
+}
+
+.bg-lines .client-section .client-pictures .cupcakes img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 80%;
+  height: 70%;
+  margin: 20px;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+}
+
+.bg-lines .client-section .client-pictures .gear {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: p3;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bg-lines .client-section .client-pictures .gear h3 {
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+.bg-lines .client-section .client-pictures .gear .definition {
+  font-size: 13px;
+  margin: 30px;
+}
+
+.bg-lines .client-section .client-pictures .gear img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 80%;
+  height: 70%;
+  margin: 20px;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+}
+
+.bg-lines .client-section .client-pictures .legal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: p4;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.bg-lines .client-section .client-pictures .legal h3 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.bg-lines .client-section .client-pictures .legal .definition {
+  font-size: 13px;
+  margin: 20px;
+}
+
+.bg-lines .client-section .client-pictures .legal img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 80%;
+  height: 70%;
+  margin: 20px;
+  -webkit-box-flex: wrap;
+      -ms-flex: wrap;
+          flex: wrap;
+}
+
+.bg-lines .client-section .client-pictures p {
+  width: 250px;
+  font-size: 13px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .bg-lines .client-section .client-pictures p {
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .bg-lines .client-section .client-pictures p {
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
