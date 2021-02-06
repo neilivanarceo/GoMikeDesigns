@@ -5,6 +5,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 } 
 
 .header{
@@ -72,7 +73,7 @@ section.intro
 
         h1{
             width: auto;
-            font-size: 35px;
+            font-size: 30px;
             @include responsive(tab) {
                 font-size: 23px;
                 }
@@ -100,6 +101,7 @@ section.intro
                 @include responsive(phone) {
                     padding-top: 15px;
                     }
+
             }
 
                 p{
@@ -159,30 +161,36 @@ section.intro
            background:url(../img/texture-paper.png) repeat;
            z-index: 1;
            height: 100%;
-           padding-top: 12%;
-           padding-bottom: 5%;  
+           padding-top: 8%;
+           padding-bottom: 8%;  
             
             .bg-quote{
-                @include border;
-                z-index: 1;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                z-index: 2;
                 opacity: 0.5;
-               background-color: #364577;
-               margin-right: 400px;
-               margin-left: 400px;
+                background-color: #364577;
+                margin-right: 400px;
+                margin-left: 400px;
+            }
+                    .bg-quote-inside{
+                        font-size: 20px;
+                        z-index: 3;
+                    
             
             
-                p{
-                    margin: 40px;
-                    text-align: center;
-                    z-index: 3;
-                    color: #fff;
-                    
-                    
-                    a{
+                    p{
+                        margin: 40px;
+                        text-align: center;
+                        z-index: 3;
                         color: #fff;
+
+                    
+                        a{
+                            color: #fff;
+                        }
                     }
-                }
-            }   
+               }
         }
 }
 
@@ -197,7 +205,7 @@ section.intro
         margin-right: 250px;
         height: auto;
         @include margin30;
-        
+       
             .client-intro{
                 height: auto;
                 width: auto;
@@ -207,7 +215,7 @@ section.intro
 
                 h1{
                     width: auto;
-                    font-size: 35px;
+                    font-size: 30px;
                     margin-bottom: 20px;
 
                     @include responsive(tab) {
@@ -231,7 +239,8 @@ section.intro
                 height: 100%;
                 margin-left: 100px;
                 margin-right: 100px;
-                grid-gap: 20px;
+                grid-gap: 10px;
+                  
      
                 .dog{
                     @include client-pictures;
