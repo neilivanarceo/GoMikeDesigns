@@ -16,10 +16,10 @@
 
 @mixin margin30 {
     @include responsive(tab) {
-        margin: 10px 30px;
+        margin: 300px 30px;
         }
     @include responsive(phone) {
-        margin: 10px 30px;
+        margin: 30px 30px;
         }
 } 
 
