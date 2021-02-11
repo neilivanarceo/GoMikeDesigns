@@ -626,4 +626,82 @@ section.intro .feedback p {
   font-size: 20px;
   margin-top: 20px;
 }
+
+.footer-bg {
+  background: rgba(255, 255, 255, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-bg .footer-quote {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-bg .footer-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-bg .footer-logos .social {
+  padding: 15px;
+}
+
+.footer-bg .footer-logos .social:hover {
+  color: #364577;
+  cursor: pointer;
+}
+
+.footer-bg .links {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-bg .links .link {
+  padding: 10px 50px;
+}
+
+.footer-bg .links .link ul {
+  padding-top: 10px;
+}
+
+.footer-bg .links .link li {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+}
+
+.footer-bg .links .link li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-bg .links .link li a:hover {
+  text-decoration: underline;
+}
 /*# sourceMappingURL=style.css.map */

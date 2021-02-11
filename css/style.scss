@@ -314,3 +314,60 @@ section.intro
                 }
         
 }
+
+.footer-bg{
+    background:rgba(255, 255, 255, .7);
+    display: flex;
+    flex-direction: column;
+  
+
+        .footer-quote{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .footer-logos{
+            display: flex;
+            justify-content: center;
+
+                .social{
+                    padding: 15px;
+                    
+                    &:hover{
+                        color:#364577;
+                        cursor: pointer;
+                    }
+                }
+        }
+
+        .links{
+            display: inline-flex;
+            flex-direction: row;
+            justify-content: center;
+
+                .link{
+                    padding: 10px 50px;
+                   
+
+                    ul{
+                        padding-top: 10px;
+                    }
+                
+                    li{
+                        display: block;
+                        flex-direction: column;
+                        padding: 5px;
+
+                        a{
+                            text-decoration: none;
+                            color: black;
+
+                            &:hover{
+                                text-decoration: underline;
+                            }
+                        }
+                    }   
+                }
+        }
+}
