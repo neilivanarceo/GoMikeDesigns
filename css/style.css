@@ -36,8 +36,8 @@
 .header .hamburger {
   position: relative;
   display: none;
-  width: 30px;
-  height: 4px;
+  width: 25px;
+  height: 3px;
   background: black;
   border-radius: 10px;
   cursor: pointer;
@@ -62,7 +62,7 @@
 .header .hamburger:after {
   content: "";
   position: absolute;
-  height: 4px;
+  height: 3px;
   right: 0;
   background: black;
   border-radius: 10px;
@@ -72,12 +72,12 @@
 
 .header .hamburger:before {
   top: -10px;
-  width: 25px;
+  width: 20px;
 }
 
 .header .hamburger:after {
   top: 10px;
-  width: 25px;
+  width: 20px;
 }
 
 .header .toggle-menu {
@@ -110,14 +110,14 @@
   top: 0;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
-  width: 25px;
+  width: 20px;
 }
 
 .header .navigation input:checked ~ .hamburger:after {
   top: 0;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-  width: 25px;
+  width: 20px;
 }
 
 .header .navigation input:checked ~ .menu {
@@ -137,6 +137,9 @@
   z-index: 1;
   -webkit-transition: 0.03s;
   transition: 0.03s;
+  border-top: 1px solid #dddddd;
+  top: 50px;
+  position: absolute;
 }
 
 .header .navigation {
