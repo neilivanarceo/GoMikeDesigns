@@ -1,0 +1,452 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header.header {
+  position: relative;
+  margin: 10px 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 25px;
+}
+
+@media only screen and (max-width: 900px) {
+  header.header {
+    margin: 10px 30px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header.header {
+    margin: 10px 30px;
+  }
+}
+
+header.header .hamburger {
+  position: relative;
+  display: none;
+  width: 25px;
+  height: 3px;
+  background: black;
+  border-radius: 10px;
+  cursor: pointer;
+  z-index: 2;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+@media only screen and (max-width: 900px) {
+  header.header .hamburger {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header.header .hamburger {
+    display: block;
+  }
+}
+
+header.header .hamburger:before,
+header.header .hamburger:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  right: 0;
+  background: black;
+  border-radius: 10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header.header .hamburger:before {
+  top: -10px;
+  width: 20px;
+}
+
+header.header .hamburger:after {
+  top: 10px;
+  width: 20px;
+}
+
+header.header .toggle-menu {
+  position: absolute;
+  width: 30px;
+  height: 100%;
+  z-index: 3;
+  cursor: pointer;
+  opacity: 0;
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  header.header .toggle-menu {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header.header .toggle-menu {
+    display: block;
+  }
+}
+
+header.header .navigation input:checked ~ .hamburger {
+  background: transparent;
+}
+
+header.header .navigation input:checked ~ .hamburger:before {
+  top: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  width: 20px;
+}
+
+header.header .navigation input:checked ~ .hamburger:after {
+  top: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  width: 20px;
+}
+
+header.header .navigation input:checked ~ .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  -webkit-transition: 0.03s;
+  transition: 0.03s;
+  border-top: 1px solid #dddddd;
+  top: 50px;
+  position: absolute;
+}
+
+header.header .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header.header .navigation .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  -webkit-transition: 0.03s ease display;
+  transition: 0.03s ease display;
+}
+
+@media only screen and (max-width: 900px) {
+  header.header .navigation .menu {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    top: 65px;
+    right: 0px;
+    width: 100%;
+    display: none;
+    -webkit-transition: 0.03s;
+    transition: 0.03s;
+    background-color: white;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header.header .navigation .menu {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    top: 65px;
+    right: 0px;
+    background-color: white;
+    width: 100%;
+    display: none;
+    -webkit-transition: 0.03s;
+    transition: 0.03s;
+  }
+}
+
+header.header .navigation .menu li {
+  list-style: none;
+}
+
+header.header .navigation .menu li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header.header .navigation .menu li a:hover {
+  -webkit-box-shadow: 0 -5px 0px gray inset;
+          box-shadow: 0 -5px 0px gray inset;
+}
+
+section.heading-bg {
+  background: url(../img/atlanta-made-sign.jpg) repeat fixed 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  section.heading-bg {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-size: 100% 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section.heading-bg {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-size: 100% 100%;
+  }
+}
+
+section.heading-bg .forms {
+  margin-left: 250px;
+  margin-right: 60%;
+  padding-top: 3%;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media only screen and (max-width: 900px) {
+  section.heading-bg .forms {
+    margin: 0 30px;
+    padding-top: 3%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section.heading-bg .forms {
+    margin: 0 30px;
+    padding-top: 3%;
+  }
+}
+
+section.heading-bg .forms .form-group {
+  margin-top: 10px;
+}
+
+section.heading-bg .forms .form-group input,
+section.heading-bg .forms .form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 15px;
+  margin-top: 5px;
+  border-radius: 8px;
+}
+
+section.heading-bg .forms textarea {
+  resize: vertical;
+}
+
+section.heading-bg .forms button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-size: 18px;
+  background-color: #F3976C;
+  -webkit-transition: .3s ease background-color;
+  transition: .3s ease background-color;
+  color: white;
+  cursor: pointer;
+}
+
+section.heading-bg .forms button[type="submit"]:hover {
+  background-color: #b68166;
+}
+
+section.heading-bg .information {
+  color: white;
+  margin-top: 20px;
+  font-size: 12px;
+  margin-left: 250px;
+  margin-right: 60%;
+  padding-bottom: 2%;
+}
+
+@media only screen and (max-width: 900px) {
+  section.heading-bg .information {
+    margin: 10px 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section.heading-bg .information {
+    margin: 10px 40px;
+  }
+}
+
+section.heading-bg .information a {
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+
+section.heading-bg .information a:hover {
+  color: #F3976C;
+}
+
+.footer-bg {
+  background: rgba(255, 255, 255, 0.7);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-bg .footer-quote {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.footer-bg .footer-logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer-bg .footer-logos .social {
+  padding: 15px;
+}
+
+.footer-bg .footer-logos .social:hover {
+  color: gray;
+  cursor: pointer;
+}
+
+.footer-bg .links {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .footer-bg .links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-bg .links {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.footer-bg .links .link {
+  padding: 10px 50px;
+}
+
+.footer-bg .links .link ul {
+  padding-top: 10px;
+}
+
+.footer-bg .links .link li {
+  display: block;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5px;
+}
+
+.footer-bg .links .link li a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-bg .links .link li a:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=contact.css.map */
