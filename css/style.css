@@ -223,6 +223,10 @@
   list-style: none;
 }
 
+.header .navigation .menu li #home {
+  color: gray;
+}
+
 .header .navigation .menu li a {
   color: black;
   text-decoration: none;

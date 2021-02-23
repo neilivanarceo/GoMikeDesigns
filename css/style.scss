@@ -113,7 +113,9 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
                align-items: center;
                z-index: 1;
                transition: 0.03s;
-               @include responsive(tab) {
+
+                
+                @include responsive(tab) {
                     justify-content: start;
                     flex-direction: row;
                     align-items: center;
@@ -125,7 +127,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
                     transition: 0.03s;
                     background-color: white;
                 }
-                @include responsive(phone) {
+                    @include responsive(phone) {
                     justify-content: start;
                     flex-direction: row;
                     align-items: center;
@@ -140,6 +142,10 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
                li{
                    list-style: none;
+
+                   #home{
+                    color: gray;
+                }
 
                    a{
                        color: black;
