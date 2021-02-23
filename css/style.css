@@ -80,7 +80,7 @@
   width: 20px;
 }
 
-.header .toggle-menu {
+.header #toggle-menu {
   position: absolute;
   width: 30px;
   height: 100%;
@@ -91,13 +91,13 @@
 }
 
 @media only screen and (max-width: 900px) {
-  .header .toggle-menu {
+  .header #toggle-menu {
     display: block;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .header .toggle-menu {
+  .header #toggle-menu {
     display: block;
   }
 }
