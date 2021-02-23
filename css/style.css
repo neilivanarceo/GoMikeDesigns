@@ -278,7 +278,7 @@
 }
 
 .heading-bg .mike-face .name {
-  color: #545454;
+  color: black;
   font-size: 20px;
   margin-top: 5px;
   background-color: white;
@@ -1035,8 +1035,9 @@ section.intro .feedback p a {
 }
 
 .bg-3 .ready {
-  color: white;
+  color: black;
   font-size: 35px;
+  background-color: white;
 }
 
 @media only screen and (max-width: 900px) {

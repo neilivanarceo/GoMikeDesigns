@@ -185,7 +185,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             align-items: center;
 
                 .name{
-                    color: #545454;
+                    color: black;
                     font-size: 20px;
                     margin-top: 5px;
                     background-color: white;
@@ -485,8 +485,9 @@ section.intro
           }   
 
                 .ready{
-                    color: white;
+                    color: black ;
                     font-size: 35px;
+                    background-color: white;
 
                     @include responsive(tab) {
                         font-size: 20px;
