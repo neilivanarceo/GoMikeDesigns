@@ -179,11 +179,12 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
                 .name{
                     color: white;
-                    font-size: 40px;
+                    font-size: 20px;
+                    margin-top: 5px;
                 }
 
                 .contact{   
-                    color: white;
+                    color: black;
                     margin: 10px;
                     border: 1px solid black;
                     padding: 15px;
@@ -238,11 +239,12 @@ section.intro
     .introductions{
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center ;
-        padding-top: 40px; 
-      @include flex-column;
-   
+        padding-top: 30px; 
+        @include flex-column;
+       
+    
             .intro-title{
                 display: flex;
                 margin-right: 10px;
@@ -250,6 +252,7 @@ section.intro
                 justify-content: center;
                 align-items: center;
                 align-content: center;
+                height: 100%;
               
                 @include responsive(tab) {
                     padding-top: 15px;
@@ -257,7 +260,6 @@ section.intro
                 @include responsive(phone) {
                     padding-top: 15px;
                     }
-
             }
 
                 p{
@@ -487,7 +489,7 @@ section.intro
                 }
 
                 .contact-2{   
-                    color: white;
+                    color: blackxxx;
                     border: 1px solid black;
                     padding: 15px;
                     width: 140px;

@@ -274,11 +274,12 @@
 
 .heading-bg .mike-face .name {
   color: white;
-  font-size: 40px;
+  font-size: 20px;
+  margin-top: 5px;
 }
 
 .heading-bg .mike-face .contact {
-  color: white;
+  color: black;
   margin: 10px;
   border: 1px solid black;
   padding: 15px;
@@ -363,13 +364,12 @@ section.intro .introductions {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 40px;
+  padding-top: 30px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -415,6 +415,7 @@ section.intro .introductions .intro-title {
           align-items: center;
   -ms-flex-line-pack: center;
       align-content: center;
+  height: 100%;
 }
 
 @media only screen and (max-width: 900px) {
@@ -1045,7 +1046,7 @@ section.intro .feedback p a {
 }
 
 .bg-3 .contact-2 {
-  color: white;
+  color: blackxxx;
   border: 1px solid black;
   padding: 15px;
   width: 140px;
