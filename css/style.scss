@@ -144,7 +144,8 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
                    list-style: none;
 
                    #home{
-                    color: gray;
+                    color: black;
+                    text-decoration: underline;
                 }
 
                    a{
@@ -184,9 +185,10 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             align-items: center;
 
                 .name{
-                    color: orange;
+                    color: #545454;
                     font-size: 20px;
                     margin-top: 5px;
+                    background-color: white;
                 }
 
                 .contact{   
@@ -466,7 +468,7 @@ section.intro
     background: url(../img/atlanta-made-sign.jpg)
     no-repeat fixed 50%;
     padding-top: 10%;
-    padding-bottom: 10%;
+    padding-bottom: 8%;
     display: flex;
     justify-content: center;
     flex-direction: column;
