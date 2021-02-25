@@ -179,19 +179,20 @@ section.heading-bg{
        color: white;
        display: flex;
        flex-direction: column;
-
+         
        @include responsive(tab) {
-      margin: 0 30px;
-       padding-top: 3%;
-    }
+        margin: 0 60px;
+        padding-top: 3%;
+        }
 
       @include responsive(phone) {
-        margin: 0 30px;
-       padding-top: 3%;
+        margin: 0 60px;
+        padding-top: 3%;
           }   
 
         .form-group{
             margin-top: 10px;
+            
         }
 
         .form-group input,
@@ -216,7 +217,7 @@ section.heading-bg{
             font-size: 18px;
             background-color: #F3976C;
             transition: .3s ease background-color;
-            color: white;
+            color: black;
             cursor: pointer;
         }
 
@@ -235,11 +236,11 @@ section.heading-bg{
         padding-bottom: 2%;
         
         @include responsive(tab) {
-            margin: 10px 40px;
+            margin: 10px 60px;
           }
       
             @include responsive(phone) {
-              margin: 10px 40px;
+              margin: 10px 60px;
                 } 
 
         a{

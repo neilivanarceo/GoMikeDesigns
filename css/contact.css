@@ -273,14 +273,14 @@ section.heading-bg .forms {
 
 @media only screen and (max-width: 900px) {
   section.heading-bg .forms {
-    margin: 0 30px;
+    margin: 0 60px;
     padding-top: 3%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   section.heading-bg .forms {
-    margin: 0 30px;
+    margin: 0 60px;
     padding-top: 3%;
   }
 }
@@ -312,7 +312,7 @@ section.heading-bg .forms button[type="submit"] {
   background-color: #F3976C;
   -webkit-transition: .3s ease background-color;
   transition: .3s ease background-color;
-  color: white;
+  color: black;
   cursor: pointer;
 }
 
@@ -331,13 +331,13 @@ section.heading-bg .information {
 
 @media only screen and (max-width: 900px) {
   section.heading-bg .information {
-    margin: 10px 40px;
+    margin: 10px 60px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   section.heading-bg .information {
-    margin: 10px 40px;
+    margin: 10px 60px;
   }
 }
 
