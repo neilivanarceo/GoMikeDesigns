@@ -549,13 +549,21 @@ section.intro
         .footer-logos{
             display: flex;
             justify-content: center;
+           
 
                 .social{
                     padding: 15px;
+
+                    a{
+                        color: black;
                     
-                    &:hover{
-                        color:gray;
-                        cursor: pointer;
+                  
+                    
+                        &:hover{
+                            color:gray;
+                            cursor: pointer;
+
+                        }
                     }
                 }
         }

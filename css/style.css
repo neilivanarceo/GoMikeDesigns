@@ -1124,7 +1124,11 @@ section.intro .feedback p a {
   padding: 15px;
 }
 
-.footer-bg .footer-logos .social:hover {
+.footer-bg .footer-logos .social a {
+  color: black;
+}
+
+.footer-bg .footer-logos .social a:hover {
   color: gray;
   cursor: pointer;
 }
