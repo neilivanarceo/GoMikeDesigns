@@ -515,7 +515,7 @@ section.intro .feedback p a {
 
 .bg-2 {
   background: url(../img/atlanta-made-sign-orange.jpg) repeat fixed 50%;
-  z-index: 1;
+  z-index: -1;
 }
 
 @media only screen and (max-width: 900px) {
@@ -532,7 +532,7 @@ section.intro .feedback p a {
 
 .bg-2 .bg-2-inside {
   background: url(../img/texture-paper.png) repeat;
-  z-index: 2;
+  z-index: 1;
   height: 100%;
   padding-top: 2%;
   padding-bottom: 2%;
@@ -542,7 +542,7 @@ section.intro .feedback p a {
 .bg-2 .bg-2-inside .bg-quote {
   padding-top: 20px;
   padding-bottom: 20px;
-  z-index: 3;
+  z-index: 2;
   opacity: 0.5;
   background-color: #364577;
   margin-right: 400px;
@@ -564,7 +564,7 @@ section.intro .feedback p a {
 
 .bg-2 .bg-2-inside .bg-quote .bg-quote-inside {
   font-size: 20px;
-  z-index: 4;
+  z-index: 3;
 }
 
 .bg-2 .bg-2-inside .bg-quote .bg-quote-inside p {
@@ -1016,6 +1016,7 @@ section.intro .feedback p a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  z-index: -1;
 }
 
 @media only screen and (max-width: 900px) {
@@ -1035,9 +1036,10 @@ section.intro .feedback p a {
 }
 
 .bg-3 .ready {
+  z-index: 3;
   color: black;
   font-size: 35px;
-  background-color: white;
+  background: white;
 }
 
 @media only screen and (max-width: 900px) {

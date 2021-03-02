@@ -326,7 +326,7 @@ section.intro
 .bg-2{
     background: url(../img/atlanta-made-sign-orange.jpg)
     repeat fixed 50%;
-    z-index: 1;
+    z-index: -1;
     @include responsive(tab) {
         background-size: 100% 100%;
     }
@@ -336,7 +336,7 @@ section.intro
 
         .bg-2-inside{
            background:url(../img/texture-paper.png) repeat;
-           z-index: 2;
+           z-index: 1;
            height: 100%;
            padding-top: 2%;
            padding-bottom: 2%;  
@@ -345,11 +345,12 @@ section.intro
             .bg-quote{
                 padding-top: 20px;
                 padding-bottom: 20px;
-                z-index: 3;
+                z-index: 2;
                 opacity: 0.5;
                 background-color: #364577 ;
                 margin-right: 400px;
                 margin-left: 400px;
+                
 
                 @include responsive(tab) {
                     margin-right: 30px;
@@ -361,7 +362,7 @@ section.intro
             
                     .bg-quote-inside{
                         font-size: 20px;
-                        z-index: 4;
+                        z-index: 3;
                     
                         p{
                             margin: 40px;
@@ -473,6 +474,8 @@ section.intro
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    z-index: -1;
+    
     @include responsive(tab) {
         padding-top: 30%;
         padding-bottom: 30%;
@@ -485,9 +488,11 @@ section.intro
           }   
 
                 .ready{
+                    z-index: 3;
                     color: black ;
                     font-size: 35px;
-                    background-color: white;
+                    background: white;
+                        
 
                     @include responsive(tab) {
                         font-size: 20px;
