@@ -31,7 +31,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             background: black;
             border-radius: 10px;
             cursor: pointer;
-            content: "&#xe5d2";
+            content: "";
             z-index: 2;
             transition: 0.3s; 
             @include responsive(tab) {
@@ -223,8 +223,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         }
 }
 
-section.intro
-{
+section.intro{
     margin: 50px 250px;
     @include margin30;
     .quote{
@@ -407,8 +406,8 @@ section.intro
 
                 h1{
                     width: auto;
-                    font-size: 30px;
                     margin-bottom: 20px;
+                    font-size: 25px;
 
                     @include responsive(tab) {
                         font-size: 23px;
@@ -427,7 +426,6 @@ section.intro
                 'p1 p2'
                 'p3 p4';
                 text-align: center;
-               
                 height: 100%;
                 grid-gap: 10px;
                 @include margin30;

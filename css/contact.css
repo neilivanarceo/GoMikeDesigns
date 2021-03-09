@@ -6,7 +6,7 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-header.header {
+.header {
   position: relative;
   margin: 10px 250px;
   display: -webkit-box;
@@ -22,18 +22,18 @@ header.header {
 }
 
 @media only screen and (max-width: 900px) {
-  header.header {
+  .header {
     margin: 10px 30px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  header.header {
+  .header {
     margin: 10px 30px;
   }
 }
 
-header.header .hamburger {
+.header .hamburger {
   position: relative;
   display: none;
   width: 25px;
@@ -41,25 +41,26 @@ header.header .hamburger {
   background: black;
   border-radius: 10px;
   cursor: pointer;
+  content: "";
   z-index: 2;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
 @media only screen and (max-width: 900px) {
-  header.header .hamburger {
+  .header .hamburger {
     display: block;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  header.header .hamburger {
+  .header .hamburger {
     display: block;
   }
 }
 
-header.header .hamburger:before,
-header.header .hamburger:after {
+.header .hamburger:before,
+.header .hamburger:after {
   content: "";
   position: absolute;
   height: 3px;
@@ -70,17 +71,17 @@ header.header .hamburger:after {
   transition: 0.3s;
 }
 
-header.header .hamburger:before {
+.header .hamburger:before {
   top: -10px;
   width: 20px;
 }
 
-header.header .hamburger:after {
+.header .hamburger:after {
   top: 10px;
   width: 20px;
 }
 
-header.header .toggle-menu {
+.header #toggle-menu {
   position: absolute;
   width: 30px;
   height: 100%;
@@ -91,36 +92,36 @@ header.header .toggle-menu {
 }
 
 @media only screen and (max-width: 900px) {
-  header.header .toggle-menu {
+  .header #toggle-menu {
     display: block;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  header.header .toggle-menu {
+  .header #toggle-menu {
     display: block;
   }
 }
 
-header.header .navigation input:checked ~ .hamburger {
+.header .navigation input:checked ~ .hamburger {
   background: transparent;
 }
 
-header.header .navigation input:checked ~ .hamburger:before {
+.header .navigation input:checked ~ .hamburger:before {
   top: 0;
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
   width: 20px;
 }
 
-header.header .navigation input:checked ~ .hamburger:after {
+.header .navigation input:checked ~ .hamburger:after {
   top: 0;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
   width: 20px;
 }
 
-header.header .navigation input:checked ~ .menu {
+.header .navigation input:checked ~ .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -142,7 +143,7 @@ header.header .navigation input:checked ~ .menu {
   position: absolute;
 }
 
-header.header .navigation {
+.header .navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,7 +155,7 @@ header.header .navigation {
           align-items: center;
 }
 
-header.header .navigation .menu {
+.header .navigation .menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -169,12 +170,12 @@ header.header .navigation .menu {
       -ms-flex-align: center;
           align-items: center;
   z-index: 1;
-  -webkit-transition: 0.03s ease display;
-  transition: 0.03s ease display;
+  -webkit-transition: 0.03s;
+  transition: 0.03s;
 }
 
 @media only screen and (max-width: 900px) {
-  header.header .navigation .menu {
+  .header .navigation .menu {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
@@ -197,7 +198,7 @@ header.header .navigation .menu {
 }
 
 @media only screen and (max-width: 600px) {
-  header.header .navigation .menu {
+  .header .navigation .menu {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
@@ -219,16 +220,16 @@ header.header .navigation .menu {
   }
 }
 
-header.header .navigation .menu li {
+.header .navigation .menu li {
   list-style: none;
 }
 
-header.header .navigation .menu li #contact-nav {
+.header .navigation .menu li #home {
   text-decoration: underline;
   color: gray;
 }
 
-header.header .navigation .menu li a {
+.header .navigation .menu li a {
   color: black;
   text-decoration: none;
   display: block;
@@ -237,7 +238,7 @@ header.header .navigation .menu li a {
   transition: 0.3s;
 }
 
-header.header .navigation .menu li a:hover {
+.header .navigation .menu li a:hover {
   -webkit-box-shadow: 0 -5px 0px gray inset;
           box-shadow: 0 -5px 0px gray inset;
 }
@@ -393,7 +394,11 @@ section.heading-bg .information a:hover {
   padding: 15px;
 }
 
-.footer-bg .footer-logos .social:hover {
+.footer-bg .footer-logos .social a {
+  color: black;
+}
+
+.footer-bg .footer-logos .social a:hover {
   color: gray;
   cursor: pointer;
 }

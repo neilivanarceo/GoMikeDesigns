@@ -16,18 +16,21 @@
 </head>
 
 <body>
-    <header class="header">
-            <div class="logo"><a href="index.html"><img src="img/atlanta%20web%20design%20logo.png"  alt="Atlanta Freelance Web Designer" height="40" /></a>
-            </div>
+    <header class="header">     
+        <div class="logo"><a href="index.html"><img src="img/atlanta%20web%20design%20logo.png"  aria-label="GoMike Design Logo"  height="40" /></a>
+        </div>
 
-            <div class="navigation">
-                <input type="checkbox" class="toggle-menu">
+        <div class="navigation">
+            
+                <input role="navigation" type="checkbox" alt="navigation" id="toggle-menu">
                 <div class="hamburger">
                 </div>
+                
                     <ul class="menu">
                         <li><a href="index.html" id="home">Home</a></li>
-                        <li><a href="contact.html" id="contact-nav">Contact</a></li>
+                        <li><a href="contact.html" id="contact.html">Contact</a></li>
                     </ul>
+                
             </div> 
     </header>
 
@@ -39,17 +42,17 @@
 
                 <div class="form-group">
                     <label for="name"> Name </label>
-                    <input type="text" id="name" name="name" required>
+                    <input type="text" id="name" tabindex="0" role="textbox" aria-label="Please enter your name here" name="name" required>
                 </div>
 
                 <div class="form-group">
                     <label for="email"> Email </label>
-                    <input type="text" id="email"  required>
+                    <input type="text" id="email" tabindex="0" role="textbox" aria-label="Please enter your email here"  required>
                 </div>
 
                 <div class="form-group">
                     <label for="find"> How did you find me? </label>
-                    <input type="text" id="find"  required>
+                <input type="text" id="find" tabindex="0" role="textbox" aria-label="Please enter here how did you found me?"  required>
                 </div>
                 
                 <div class="form-group">
@@ -57,25 +60,25 @@
                         <textarea  id="message" rows="4" cols="50" required></textarea>
                 </div> 
 
-                <button class="letsgo" type="submit">
-                    Let's go Mike
+                <button class="letsgo" aria-label="lets go and design" type="submit">
+                    Let's go Design
                 </button>
             </form> 
         </div>
 
         <div class="information">
-            <p id="email-number">
+            <p id="email-number" tabindex="0" aria-label="Here is my email and phone number">
                 mike@gomikedesigns.com<br>
                 +1 (404) 555-1234
             </p>
-            <p id="address-time">
+            <p id="address-time" tabindex="0" aria-label="here is my address where you can found me">
                 <br>123 Peachtree Ave. Atlanta, GA<br>   
                 Available 9am–5pm, Mon-Fri              
             </p>
 
             <p id="visit">
                 <br>Interested to learn about my freelace services?<br> 
-                Please visit my other <a href="index.html" alt="Home"> page.</a>
+                Please visit my other <a href="index.html" aria-label="are you interested to learn about my freelance services? Visit this link" alt="Home"> page.</a>
             </p>
         </div>
     </section>
@@ -86,16 +89,16 @@
         </div>
 
         <div class="footer-logos">
-            <div class="social" href="index.html"><i class="fab fa-twitter fa-2x"></i>
+            <div class="social"> <a href="twitter.com" aria-label="You can visit me here on my twitter account" alt="twitter"><i class="fab fa-twitter fa-2x"></i></a>
             </div>
-        
-            <div class="social" href="index.html"><i class="fab fa-facebook fa-2x"></i>
+    
+            <div class="social"><a href="facebook.com" aria-label="You can visit me here on my facebook account" alt="facebook"><i class="fab fa-facebook fa-2x"></i></a>
             </div>
-      
-            <div class="social" href="index.html"><i class="fab fa-dribbble fa-2x"></i>
+
+            <div class="social"><a href="dribbble.com" aria-label="You can visit me here on my dribble account" alt="dribbble"><i class="fab fa-dribbble fa-2x"></i></a>
             </div>
-        
-            <div class="social" href="index.html"><i class="fab fa-instagram fa-2x"></i>
+    
+            <div class="social"><a href="instagram.com" aria-label="You can visit me here on my instagram account" alt="instagram"><i class="fab fa-instagram fa-2x"></i></a>
             </div>
         </div>
 

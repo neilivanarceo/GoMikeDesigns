@@ -41,7 +41,7 @@
   background: black;
   border-radius: 10px;
   cursor: pointer;
-  content: "&#xe5d2";
+  content: "";
   z-index: 2;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -629,8 +629,8 @@ section.intro .feedback p a {
 
 .bg-lines-client .client-section .client-intro h1 {
   width: auto;
-  font-size: 30px;
   margin-bottom: 20px;
+  font-size: 25px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -706,6 +706,10 @@ section.intro .feedback p a {
   grid-area: p1;
 }
 
+.bg-lines-client .client-section .client-pictures .dog h2 {
+  font-size: 20px;
+}
+
 .bg-lines-client .client-section .client-pictures .dog h3 {
   text-align: center;
   -webkit-box-pack: center;
@@ -717,18 +721,17 @@ section.intro .feedback p a {
 
 @media only screen and (max-width: 900px) {
   .bg-lines-client .client-section .client-pictures .dog h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .bg-lines-client .client-section .client-pictures .dog h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
 .bg-lines-client .client-section .client-pictures .dog .definition {
-  font-size: 13px;
   margin: 10px 35px;
 }
 
@@ -783,6 +786,10 @@ section.intro .feedback p a {
   grid-area: p2;
 }
 
+.bg-lines-client .client-section .client-pictures .cupcakes h2 {
+  font-size: 20px;
+}
+
 .bg-lines-client .client-section .client-pictures .cupcakes h3 {
   text-align: center;
   -webkit-box-pack: center;
@@ -794,18 +801,17 @@ section.intro .feedback p a {
 
 @media only screen and (max-width: 900px) {
   .bg-lines-client .client-section .client-pictures .cupcakes h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .bg-lines-client .client-section .client-pictures .cupcakes h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
 .bg-lines-client .client-section .client-pictures .cupcakes .definition {
-  font-size: 13px;
   margin: 10px 35px;
 }
 
@@ -860,6 +866,10 @@ section.intro .feedback p a {
   grid-area: p3;
 }
 
+.bg-lines-client .client-section .client-pictures .gear h2 {
+  font-size: 20px;
+}
+
 .bg-lines-client .client-section .client-pictures .gear h3 {
   text-align: center;
   -webkit-box-pack: center;
@@ -871,18 +881,17 @@ section.intro .feedback p a {
 
 @media only screen and (max-width: 900px) {
   .bg-lines-client .client-section .client-pictures .gear h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .bg-lines-client .client-section .client-pictures .gear h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
 .bg-lines-client .client-section .client-pictures .gear .definition {
-  font-size: 13px;
   margin: 10px 35px;
 }
 
@@ -937,6 +946,10 @@ section.intro .feedback p a {
   grid-area: p4;
 }
 
+.bg-lines-client .client-section .client-pictures .legal h2 {
+  font-size: 20px;
+}
+
 .bg-lines-client .client-section .client-pictures .legal h3 {
   text-align: center;
   -webkit-box-pack: center;
@@ -948,18 +961,17 @@ section.intro .feedback p a {
 
 @media only screen and (max-width: 900px) {
   .bg-lines-client .client-section .client-pictures .legal h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .bg-lines-client .client-section .client-pictures .legal h3 {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
 .bg-lines-client .client-section .client-pictures .legal .definition {
-  font-size: 13px;
   margin: 10px 35px;
 }
 
