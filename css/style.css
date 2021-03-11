@@ -318,23 +318,23 @@
   background-color: #b68166;
 }
 
-section.intro {
+article.intro {
   margin: 50px 250px;
 }
 
 @media only screen and (max-width: 900px) {
-  section.intro {
+  article.intro {
     margin: 30px 30px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  section.intro {
+  article.intro {
     margin: 30px 30px;
   }
 }
 
-section.intro .quote {
+article.intro .quote {
   height: auto;
   width: auto;
   text-align: center;
@@ -346,23 +346,23 @@ section.intro .quote {
           justify-content: center;
 }
 
-section.intro .quote h1 {
+article.intro .quote h1 {
   width: auto;
 }
 
 @media only screen and (max-width: 900px) {
-  section.intro .quote h1 {
+  article.intro .quote h1 {
     font-size: 23px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  section.intro .quote h1 {
+  article.intro .quote h1 {
     font-size: 23px;
   }
 }
 
-section.intro .introductions {
+article.intro .introductions {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -379,7 +379,7 @@ section.intro .introductions {
 }
 
 @media only screen and (max-width: 900px) {
-  section.intro .introductions {
+  article.intro .introductions {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -392,7 +392,7 @@ section.intro .introductions {
 }
 
 @media only screen and (max-width: 600px) {
-  section.intro .introductions {
+  article.intro .introductions {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -404,7 +404,7 @@ section.intro .introductions {
   }
 }
 
-section.intro .introductions .intro-title {
+article.intro .introductions .intro-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -425,18 +425,18 @@ section.intro .introductions .intro-title {
 }
 
 @media only screen and (max-width: 900px) {
-  section.intro .introductions .intro-title {
+  article.intro .introductions .intro-title {
     padding-top: 15px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  section.intro .introductions .intro-title {
+  article.intro .introductions .intro-title {
     padding-top: 15px;
   }
 }
 
-section.intro .introductions p {
+article.intro .introductions p {
   width: 250px;
   font-size: 13px;
   padding-top: 10px;
@@ -444,7 +444,7 @@ section.intro .introductions p {
 }
 
 @media only screen and (max-width: 900px) {
-  section.intro .introductions p {
+  article.intro .introductions p {
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-align: center;
@@ -456,7 +456,7 @@ section.intro .introductions p {
 }
 
 @media only screen and (max-width: 600px) {
-  section.intro .introductions p {
+  article.intro .introductions p {
     -ms-flex-line-pack: center;
         align-content: center;
     -webkit-box-align: center;
@@ -467,7 +467,7 @@ section.intro .introductions p {
   }
 }
 
-section.intro .feedback {
+article.intro .feedback {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -480,34 +480,34 @@ section.intro .feedback {
 }
 
 @media only screen and (max-width: 900px) {
-  section.intro .feedback {
+  article.intro .feedback {
     padding-top: 20px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  section.intro .feedback {
+  article.intro .feedback {
     padding-top: 20px;
   }
 }
 
-section.intro .feedback p {
+article.intro .feedback p {
   width: 50%;
 }
 
 @media only screen and (max-width: 900px) {
-  section.intro .feedback p {
+  article.intro .feedback p {
     width: auto;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  section.intro .feedback p {
+  article.intro .feedback p {
     width: auto;
   }
 }
 
-section.intro .feedback p a {
+article.intro .feedback p a {
   font-weight: bold;
   font-style: italic;
   color: black;
@@ -745,8 +745,8 @@ section.intro .feedback p a {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-bottom: 20px;
   height: 70%;
   -webkit-box-flex: wrap;
@@ -761,15 +761,15 @@ section.intro .feedback p a {
 
 @media only screen and (max-width: 900px) {
   .bg-lines-client .client-section .client-pictures .dog img {
-    padding-left: 5px;
-    size: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .bg-lines-client .client-section .client-pictures .dog img {
-    padding: 5px;
-    size: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
@@ -827,8 +827,8 @@ section.intro .feedback p a {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-bottom: 20px;
   height: 70%;
   -webkit-box-flex: wrap;
@@ -843,15 +843,15 @@ section.intro .feedback p a {
 
 @media only screen and (max-width: 900px) {
   .bg-lines-client .client-section .client-pictures .cupcakes img {
-    padding-left: 5px;
-    size: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .bg-lines-client .client-section .client-pictures .cupcakes img {
-    padding: 5px;
-    size: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
@@ -909,8 +909,8 @@ section.intro .feedback p a {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-bottom: 20px;
   height: 70%;
   -webkit-box-flex: wrap;
@@ -925,15 +925,15 @@ section.intro .feedback p a {
 
 @media only screen and (max-width: 900px) {
   .bg-lines-client .client-section .client-pictures .gear img {
-    padding-left: 5px;
-    size: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .bg-lines-client .client-section .client-pictures .gear img {
-    padding: 5px;
-    size: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
@@ -991,8 +991,8 @@ section.intro .feedback p a {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
   padding-bottom: 20px;
   height: 70%;
   -webkit-box-flex: wrap;
@@ -1007,15 +1007,15 @@ section.intro .feedback p a {
 
 @media only screen and (max-width: 900px) {
   .bg-lines-client .client-section .client-pictures .legal img {
-    padding-left: 5px;
-    size: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .bg-lines-client .client-section .client-pictures .legal img {
-    padding: 5px;
-    size: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
