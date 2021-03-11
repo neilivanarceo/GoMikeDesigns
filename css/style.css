@@ -251,16 +251,16 @@
 
 @media only screen and (max-width: 900px) {
   .heading-bg {
-    padding-top: 15%;
-    padding-bottom: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-size: 100% 100%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .heading-bg {
-    padding-top: 20%;
-    padding-bottom: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-size: 100% 100%;
   }
 }
@@ -540,8 +540,8 @@ section.intro .feedback p a {
 }
 
 .bg-2 .bg-2-inside .bg-quote {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 2px;
+  padding-bottom: 2px;
   z-index: 2;
   opacity: 0.5;
   background-color: #364577;
@@ -558,7 +558,7 @@ section.intro .feedback p a {
 
 @media only screen and (max-width: 600px) {
   .bg-2 .bg-2-inside .bg-quote {
-    margin: 30px 30px;
+    margin: 20px 20px;
   }
 }
 
@@ -762,12 +762,14 @@ section.intro .feedback p a {
 @media only screen and (max-width: 900px) {
   .bg-lines-client .client-section .client-pictures .dog img {
     padding-left: 5px;
+    size: 100px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .bg-lines-client .client-section .client-pictures .dog img {
     padding: 5px;
+    size: 100px;
   }
 }
 
@@ -842,12 +844,14 @@ section.intro .feedback p a {
 @media only screen and (max-width: 900px) {
   .bg-lines-client .client-section .client-pictures .cupcakes img {
     padding-left: 5px;
+    size: 100px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .bg-lines-client .client-section .client-pictures .cupcakes img {
     padding: 5px;
+    size: 100px;
   }
 }
 
@@ -922,12 +926,14 @@ section.intro .feedback p a {
 @media only screen and (max-width: 900px) {
   .bg-lines-client .client-section .client-pictures .gear img {
     padding-left: 5px;
+    size: 100px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .bg-lines-client .client-section .client-pictures .gear img {
     padding: 5px;
+    size: 100px;
   }
 }
 
@@ -1002,12 +1008,14 @@ section.intro .feedback p a {
 @media only screen and (max-width: 900px) {
   .bg-lines-client .client-section .client-pictures .legal img {
     padding-left: 5px;
+    size: 100px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .bg-lines-client .client-section .client-pictures .legal img {
     padding: 5px;
+    size: 100px;
   }
 }
 
@@ -1033,16 +1041,16 @@ section.intro .feedback p a {
 
 @media only screen and (max-width: 900px) {
   .bg-3 {
-    padding-top: 30%;
-    padding-bottom: 30%;
+    padding-top: 20%;
+    padding-bottom: 20%;
     background-size: 100% 100%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .bg-3 {
-    padding-top: 30%;
-    padding-bottom: 30%;
+    padding-top: 20%;
+    padding-bottom: 20%;
     background-size: 100% 100%;
   }
 }

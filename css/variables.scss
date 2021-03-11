@@ -86,9 +86,11 @@
 
             @include responsive(tab) {
               padding-left: 5px;
+              size: 100px;
                 }
             @include responsive(phone) {
               padding: 5px;
+              size: 100px;
                 }
             
         }
