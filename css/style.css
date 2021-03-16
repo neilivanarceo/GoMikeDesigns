@@ -21,6 +21,12 @@
   padding: 0 25px;
 }
 
+@media only screen and (max-width: 1400px) {
+  .header {
+    margin: 10px 30px;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .header {
     margin: 10px 30px;
@@ -249,6 +255,14 @@
   padding-bottom: 6%;
 }
 
+@media only screen and (max-width: 1400px) {
+  .heading-bg {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-size: 100% 100%;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .heading-bg {
     padding-top: 5%;
@@ -298,6 +312,13 @@
   -webkit-transition: .3s ease background-color;
   transition: .3s ease background-color;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 1400px) {
+  .heading-bg .mike-face .contact {
+    padding: 10px;
+    font-size: 18px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -424,6 +445,12 @@ article.intro .introductions .intro-title {
   height: 100%;
 }
 
+@media only screen and (max-width: 1400px) {
+  article.intro .introductions .intro-title {
+    padding-top: 15px;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   article.intro .introductions .intro-title {
     padding-top: 15px;
@@ -441,6 +468,18 @@ article.intro .introductions p {
   font-size: 13px;
   padding-top: 10px;
   text-align: center;
+}
+
+@media only screen and (max-width: 1400px) {
+  article.intro .introductions p {
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -518,6 +557,12 @@ article.intro .feedback p a {
   z-index: -1;
 }
 
+@media only screen and (max-width: 1400px) {
+  .bg-2 {
+    background-size: 100% 100%;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .bg-2 {
     background-size: 100% 100%;
@@ -549,10 +594,17 @@ article.intro .feedback p a {
   margin-left: 500px;
 }
 
+@media only screen and (max-width: 1400px) {
+  .bg-2 .bg-2-inside .bg-quote {
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .bg-2 .bg-2-inside .bg-quote {
-    margin-right: 30px;
-    margin-left: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
   }
 }
 
@@ -589,6 +641,7 @@ article.intro .feedback p a {
   margin-left: 300px;
   margin-right: 300px;
   height: auto;
+  border: 1px solid black;
 }
 
 @media only screen and (max-width: 900px) {
@@ -600,6 +653,12 @@ article.intro .feedback p a {
 @media only screen and (max-width: 600px) {
   .bg-lines-client .client-section {
     margin: 30px 30px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .bg-lines-client .client-section {
+    margin: 50px 50px;
   }
 }
 
@@ -701,6 +760,14 @@ article.intro .feedback p a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: p1;
@@ -717,6 +784,11 @@ article.intro .feedback p a {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+.bg-lines-client .client-section .client-pictures .dog h3 a {
+  text-decoration: underline;
+  font-style: italic;
 }
 
 @media only screen and (max-width: 900px) {
@@ -744,33 +816,12 @@ article.intro .feedback p a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 20px;
-  height: 70%;
+  width: 300px;
+  height: 300px;
   -webkit-box-flex: wrap;
       -ms-flex: wrap;
           flex: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-@media only screen and (max-width: 900px) {
-  .bg-lines-client .client-section .client-pictures .dog img {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .bg-lines-client .client-section .client-pictures .dog img {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
+  border: 1px solid black;
 }
 
 .bg-lines-client .client-section .client-pictures .cupcakes {
@@ -783,6 +834,14 @@ article.intro .feedback p a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-grid-row: 1;
   -ms-grid-column: 2;
   grid-area: p2;
@@ -799,6 +858,11 @@ article.intro .feedback p a {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+.bg-lines-client .client-section .client-pictures .cupcakes h3 a {
+  text-decoration: underline;
+  font-style: italic;
 }
 
 @media only screen and (max-width: 900px) {
@@ -826,33 +890,12 @@ article.intro .feedback p a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 20px;
-  height: 70%;
+  width: 300px;
+  height: 300px;
   -webkit-box-flex: wrap;
       -ms-flex: wrap;
           flex: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-@media only screen and (max-width: 900px) {
-  .bg-lines-client .client-section .client-pictures .cupcakes img {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .bg-lines-client .client-section .client-pictures .cupcakes img {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
+  border: 1px solid black;
 }
 
 .bg-lines-client .client-section .client-pictures .gear {
@@ -865,6 +908,14 @@ article.intro .feedback p a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: p3;
@@ -881,6 +932,11 @@ article.intro .feedback p a {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+.bg-lines-client .client-section .client-pictures .gear h3 a {
+  text-decoration: underline;
+  font-style: italic;
 }
 
 @media only screen and (max-width: 900px) {
@@ -908,33 +964,12 @@ article.intro .feedback p a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 20px;
-  height: 70%;
+  width: 300px;
+  height: 300px;
   -webkit-box-flex: wrap;
       -ms-flex: wrap;
           flex: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-@media only screen and (max-width: 900px) {
-  .bg-lines-client .client-section .client-pictures .gear img {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .bg-lines-client .client-section .client-pictures .gear img {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
+  border: 1px solid black;
 }
 
 .bg-lines-client .client-section .client-pictures .legal {
@@ -947,6 +982,14 @@ article.intro .feedback p a {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: p4;
@@ -963,6 +1006,11 @@ article.intro .feedback p a {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+.bg-lines-client .client-section .client-pictures .legal h3 a {
+  text-decoration: underline;
+  font-style: italic;
 }
 
 @media only screen and (max-width: 900px) {
@@ -990,33 +1038,12 @@ article.intro .feedback p a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-bottom: 20px;
-  height: 70%;
+  width: 300px;
+  height: 300px;
   -webkit-box-flex: wrap;
       -ms-flex: wrap;
           flex: wrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-}
-
-@media only screen and (max-width: 900px) {
-  .bg-lines-client .client-section .client-pictures .legal img {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .bg-lines-client .client-section .client-pictures .legal img {
-    padding-left: 50px;
-    padding-right: 50px;
-  }
+  border: 1px solid black;
 }
 
 .bg-3 {
