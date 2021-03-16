@@ -350,8 +350,8 @@ article.intro{
                 z-index: 2;
                 opacity: 0.5;
                 background-color: #364577 ;
-                margin-right: 400px;
-                margin-left: 400px;
+                margin-right: 500px;
+                margin-left: 500px;
 
                 @include responsive(tab) {
                     margin-right: 30px;
@@ -366,7 +366,7 @@ article.intro{
                         z-index: 3;
                     
                         p{
-                            margin: 40px;
+                            margin: 20px;
                             text-align: center;
                             color: #fff;
                             

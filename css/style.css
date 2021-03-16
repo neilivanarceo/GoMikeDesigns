@@ -545,8 +545,8 @@ article.intro .feedback p a {
   z-index: 2;
   opacity: 0.5;
   background-color: #364577;
-  margin-right: 400px;
-  margin-left: 400px;
+  margin-right: 500px;
+  margin-left: 500px;
 }
 
 @media only screen and (max-width: 900px) {
@@ -568,7 +568,7 @@ article.intro .feedback p a {
 }
 
 .bg-2 .bg-2-inside .bg-quote .bg-quote-inside p {
-  margin: 40px;
+  margin: 20px;
   text-align: center;
   color: #fff;
 }
