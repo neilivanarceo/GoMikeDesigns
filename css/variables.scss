@@ -15,6 +15,10 @@
 }
 
 @mixin margin30 {
+
+    @include responsive(laptop) {
+        margin: 50px 50px;
+        }
     @include responsive(tab) {
         margin: 30px 30px;
         }
@@ -84,12 +88,8 @@
             display: flex;
             flex-flow: wrap;
             justify-content: center;
-            width: 300px;
-            height: 300px;
+            width: 250px;
+            height: 250px;
             flex: wrap;
-         
-            border: 1px solid black;
-
-            
         }
 }

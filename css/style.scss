@@ -432,13 +432,10 @@ article.intro{
         margin-left: 300px;
         margin-right: 300px;
         height: auto;
-        @include border;
+     
         @include margin30;
 
-        @include responsive(laptop) {
-            margin: 50px 50px;
-            }
-            
+
             .client-intro{
                 height: 70%;
                 width: auto;

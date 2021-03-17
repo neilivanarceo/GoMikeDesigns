@@ -343,6 +343,12 @@ article.intro {
   margin: 50px 250px;
 }
 
+@media only screen and (max-width: 1400px) {
+  article.intro {
+    margin: 50px 50px;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   article.intro {
     margin: 30px 30px;
@@ -641,7 +647,12 @@ article.intro .feedback p a {
   margin-left: 300px;
   margin-right: 300px;
   height: auto;
-  border: 1px solid black;
+}
+
+@media only screen and (max-width: 1400px) {
+  .bg-lines-client .client-section {
+    margin: 50px 50px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -656,12 +667,6 @@ article.intro .feedback p a {
   }
 }
 
-@media only screen and (max-width: 1400px) {
-  .bg-lines-client .client-section {
-    margin: 50px 50px;
-  }
-}
-
 .bg-lines-client .client-section .client-intro {
   height: 70%;
   width: auto;
@@ -672,6 +677,12 @@ article.intro .feedback p a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media only screen and (max-width: 1400px) {
+  .bg-lines-client .client-section .client-intro {
+    margin: 50px 50px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -715,6 +726,12 @@ article.intro .feedback p a {
   text-align: center;
   height: 100%;
   grid-gap: 10px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .bg-lines-client .client-section .client-pictures {
+    margin: 50px 50px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -816,12 +833,11 @@ article.intro .feedback p a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   -webkit-box-flex: wrap;
       -ms-flex: wrap;
           flex: wrap;
-  border: 1px solid black;
 }
 
 .bg-lines-client .client-section .client-pictures .cupcakes {
@@ -890,12 +906,11 @@ article.intro .feedback p a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   -webkit-box-flex: wrap;
       -ms-flex: wrap;
           flex: wrap;
-  border: 1px solid black;
 }
 
 .bg-lines-client .client-section .client-pictures .gear {
@@ -964,12 +979,11 @@ article.intro .feedback p a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   -webkit-box-flex: wrap;
       -ms-flex: wrap;
           flex: wrap;
-  border: 1px solid black;
 }
 
 .bg-lines-client .client-section .client-pictures .legal {
@@ -1038,12 +1052,11 @@ article.intro .feedback p a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   -webkit-box-flex: wrap;
       -ms-flex: wrap;
           flex: wrap;
-  border: 1px solid black;
 }
 
 .bg-3 {
