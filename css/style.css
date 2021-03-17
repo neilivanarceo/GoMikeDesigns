@@ -793,7 +793,7 @@ article.intro .feedback p a {
   font-size: 20px;
 }
 
-.bg-lines-client .client-section .client-pictures .dog h3 {
+.bg-lines-client .client-section .client-pictures .dog p {
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -802,19 +802,24 @@ article.intro .feedback p a {
       align-content: center;
 }
 
-.bg-lines-client .client-section .client-pictures .dog h3 a {
-  text-decoration: underline;
+.bg-lines-client .client-section .client-pictures .dog p a {
+  text-decoration: none;
   font-style: italic;
 }
 
+.bg-lines-client .client-section .client-pictures .dog p a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 900px) {
-  .bg-lines-client .client-section .client-pictures .dog h3 {
+  .bg-lines-client .client-section .client-pictures .dog p {
     font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .bg-lines-client .client-section .client-pictures .dog h3 {
+  .bg-lines-client .client-section .client-pictures .dog p {
     font-size: 15px;
   }
 }
@@ -866,7 +871,7 @@ article.intro .feedback p a {
   font-size: 20px;
 }
 
-.bg-lines-client .client-section .client-pictures .cupcakes h3 {
+.bg-lines-client .client-section .client-pictures .cupcakes p {
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -875,19 +880,24 @@ article.intro .feedback p a {
       align-content: center;
 }
 
-.bg-lines-client .client-section .client-pictures .cupcakes h3 a {
-  text-decoration: underline;
+.bg-lines-client .client-section .client-pictures .cupcakes p a {
+  text-decoration: none;
   font-style: italic;
 }
 
+.bg-lines-client .client-section .client-pictures .cupcakes p a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 900px) {
-  .bg-lines-client .client-section .client-pictures .cupcakes h3 {
+  .bg-lines-client .client-section .client-pictures .cupcakes p {
     font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .bg-lines-client .client-section .client-pictures .cupcakes h3 {
+  .bg-lines-client .client-section .client-pictures .cupcakes p {
     font-size: 15px;
   }
 }
@@ -939,7 +949,7 @@ article.intro .feedback p a {
   font-size: 20px;
 }
 
-.bg-lines-client .client-section .client-pictures .gear h3 {
+.bg-lines-client .client-section .client-pictures .gear p {
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -948,19 +958,24 @@ article.intro .feedback p a {
       align-content: center;
 }
 
-.bg-lines-client .client-section .client-pictures .gear h3 a {
-  text-decoration: underline;
+.bg-lines-client .client-section .client-pictures .gear p a {
+  text-decoration: none;
   font-style: italic;
 }
 
+.bg-lines-client .client-section .client-pictures .gear p a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 900px) {
-  .bg-lines-client .client-section .client-pictures .gear h3 {
+  .bg-lines-client .client-section .client-pictures .gear p {
     font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .bg-lines-client .client-section .client-pictures .gear h3 {
+  .bg-lines-client .client-section .client-pictures .gear p {
     font-size: 15px;
   }
 }
@@ -1012,7 +1027,7 @@ article.intro .feedback p a {
   font-size: 20px;
 }
 
-.bg-lines-client .client-section .client-pictures .legal h3 {
+.bg-lines-client .client-section .client-pictures .legal p {
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1021,19 +1036,24 @@ article.intro .feedback p a {
       align-content: center;
 }
 
-.bg-lines-client .client-section .client-pictures .legal h3 a {
-  text-decoration: underline;
+.bg-lines-client .client-section .client-pictures .legal p a {
+  text-decoration: none;
   font-style: italic;
 }
 
+.bg-lines-client .client-section .client-pictures .legal p a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 900px) {
-  .bg-lines-client .client-section .client-pictures .legal h3 {
+  .bg-lines-client .client-section .client-pictures .legal p {
     font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .bg-lines-client .client-section .client-pictures .legal h3 {
+  .bg-lines-client .client-section .client-pictures .legal p {
     font-size: 15px;
   }
 }
