@@ -294,7 +294,7 @@
 
 .heading-bg .mike-face h1 {
   color: black;
-  font-size: 20px;
+  font-size: 30px;
   margin-top: 10px;
   background-color: white;
 }
@@ -303,12 +303,12 @@
   color: black;
   margin: 10px;
   border: 1px solid black;
-  padding: 15px;
-  width: 140px;
+  padding: 10px;
+  width: 130px;
   text-align: center;
   border-radius: 50px;
   background-color: #F3976C;
-  font-size: 20px;
+  font-size: 18px;
   -webkit-transition: .3s ease background-color;
   transition: .3s ease background-color;
   cursor: pointer;
@@ -555,7 +555,12 @@ article.intro .feedback p {
 article.intro .feedback p a {
   font-weight: bold;
   font-style: italic;
-  color: black;
+  text-decoration: none;
+}
+
+article.intro .feedback p a:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .bg-2 {
@@ -594,7 +599,7 @@ article.intro .feedback p a {
   padding-top: 2px;
   padding-bottom: 2px;
   z-index: 2;
-  background-color: white;
+  background-color: rgba(54, 69, 119, 0.5);
   margin-right: 500px;
   margin-left: 500px;
 }
@@ -627,13 +632,19 @@ article.intro .feedback p a {
 .bg-2 .bg-2-inside .bg-quote .bg-quote-inside p {
   margin: 20px;
   text-align: center;
-  color: black;
+  color: white;
 }
 
 .bg-2 .bg-2-inside .bg-quote .bg-quote-inside p a {
-  color: black;
-  font-weight: bold;
+  color: #c2bbbb;
   font-style: italic;
+  text-decoration: none;
+}
+
+.bg-2 .bg-2-inside .bg-quote .bg-quote-inside p a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: white;
 }
 
 .bg-lines-client {
@@ -1118,7 +1129,7 @@ article.intro .feedback p a {
   z-index: 3;
   color: black;
   font-size: 35px;
-  background: white;
+  background: rgba(255, 255, 255, 0.5);
 }
 
 @media only screen and (max-width: 900px) {
