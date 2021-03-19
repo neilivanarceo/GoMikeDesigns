@@ -640,11 +640,12 @@ article.intro{
                     li{
                         display: block;
                         flex-direction: column;
-                        padding: 5px;
+                        padding: 10px;
 
                         a{
                             text-decoration: none;
                             color: black;
+                            
 
                             &:hover{
                                 text-decoration: underline;

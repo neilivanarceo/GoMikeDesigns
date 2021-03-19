@@ -1267,7 +1267,7 @@ article.intro .feedback p a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 5px;
+  padding: 10px;
 }
 
 .footer-bg .links .link li a {
