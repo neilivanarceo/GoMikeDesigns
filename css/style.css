@@ -232,7 +232,9 @@
 
 .header .navigation .menu li #home {
   text-decoration: underline;
-  color: gray;
+  color: black;
+  -webkit-box-shadow: black;
+          box-shadow: black;
 }
 
 .header .navigation .menu li a {
