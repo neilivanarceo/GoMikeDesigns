@@ -249,6 +249,10 @@ section.heading-bg{
         margin-left: 250px;
         margin-right: 60%;
         padding-bottom: 2%;
+
+        @include responsive(laptop) {
+            margin: 10px 60px;
+            }
         
         @include responsive(tab) {
             margin: 10px 60px;
