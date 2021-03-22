@@ -21,6 +21,12 @@
   padding: 0 25px;
 }
 
+@media only screen and (max-width: 1400px) {
+  .header {
+    margin: 10px 30px;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .header {
     margin: 10px 30px;
@@ -249,24 +255,24 @@ section.heading-bg {
 
 @media only screen and (max-width: 1400px) {
   section.heading-bg {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-size: 100% 100%;
   }
 }
 
 @media only screen and (max-width: 900px) {
   section.heading-bg {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-size: 100% 100%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   section.heading-bg {
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-size: 100% 100%;
   }
 }
@@ -274,7 +280,7 @@ section.heading-bg {
 section.heading-bg .forms {
   margin-left: 250px;
   margin-right: 60%;
-  padding-top: 3%;
+  padding-top: 2%;
   color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -288,21 +294,21 @@ section.heading-bg .forms {
 @media only screen and (max-width: 1400px) {
   section.heading-bg .forms {
     margin: 0 60% 0 60px;
-    padding-top: 3%;
+    padding-top: 1%;
   }
 }
 
 @media only screen and (max-width: 900px) {
   section.heading-bg .forms {
-    margin: 0 40% 0 60px;
-    padding-top: 3%;
+    margin: 0 40% 0 40px;
+    padding-top: 1%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   section.heading-bg .forms {
     margin: 0 60px;
-    padding-top: 3%;
+    padding-top: 1%;
   }
 }
 
@@ -347,7 +353,7 @@ section.heading-bg .information {
   font-size: 12px;
   margin-left: 250px;
   margin-right: 60%;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
 }
 
 @media only screen and (max-width: 1400px) {
