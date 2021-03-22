@@ -276,9 +276,16 @@ section.heading-bg .forms {
           flex-direction: column;
 }
 
+@media only screen and (max-width: 1400px) {
+  section.heading-bg .forms {
+    margin: 0 60% 0 60px;
+    padding-top: 3%;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   section.heading-bg .forms {
-    margin: 0 60px;
+    margin: 0 40% 0 60px;
     padding-top: 3%;
   }
 }
