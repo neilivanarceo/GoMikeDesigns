@@ -168,6 +168,13 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 section.heading-bg{     
     background: url(../img/atlanta-made-sign.jpg)
     repeat fixed 50%;
+    background-size: 100% 100%;
+
+    @include responsive(laptop) {
+        padding-top: 5%;
+        padding-bottom: 5%;
+        background-size: 100% 100%;
+    }
     
     @include responsive(tab) {
         padding-top: 5%;
