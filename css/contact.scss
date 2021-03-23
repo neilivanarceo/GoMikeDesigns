@@ -184,7 +184,6 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 }
   
-
 .forms{
     margin-left: 250px;
     margin-right: 60%;
@@ -208,72 +207,72 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             padding-top: 1%;
         }   
 
-.form-group{
+    .form-group{
     margin-top: 10px;
 
-}
-
-.form-group input,
-.form-group textarea{
-    width: 100%;
-    padding: 5px;
-    font-size: 15px;
-    margin-top: 5px;
-    border-radius: 8px;
-}
-
-textarea{
-    resize: vertical;
-}
-
-button[type="submit"]{
-    width: 100%;
-    padding: 10px;
-    margin: 0 auto;
-    border-radius: 5px;
-    margin-top: 10px;
-    font-size: 18px;
-    background-color: #F3976C;
-    transition: .3s ease background-color;
-    color: black;
-    cursor: pointer;
-}
-
-button[type="submit"]:hover{
-    background-color: #b68166;
-}
-
-
-
-.information{
-    color: black;
-    margin-top: 20px;
-    font-size: 12px;
-
-        @include responsive(laptop) {
-            margin: 10px 60px;
-            }
-        
-        @include responsive(tab) {
-            margin: 10px 60px;
-          }
-      
-            @include responsive(phone) {
-              margin: 10px 60px;
-                } 
-
-        a{
-            color: white;
-            font-style: italic;
-            font-weight: bold;
-
-            &:hover{
-                color:#F3976C;
-            }
-        }     
     }
 
+    .form-group input,
+    .form-group textarea{
+        width: 100%;
+        padding: 5px;
+        font-size: 15px;
+        margin-top: 5px;
+        border-radius: 8px;
+    }
+
+    textarea{
+        resize: vertical;
+    }
+
+    button[type="submit"]{
+        width: 100%;
+        padding: 10px;
+        margin: 0 auto;
+        border-radius: 5px;
+        margin-top: 10px;
+        font-size: 18px;
+        background-color: #F3976C;
+        transition: .3s ease background-color;
+        color: black;
+        cursor: pointer;
+    }
+
+    button[type="submit"]:hover{
+        background-color: #b68166;
+    }
+
+
+
+    .information{
+        color: black;
+        margin-top: 20px;
+        font-size: 12px;
+
+            @include responsive(laptop) {
+                margin: 10px 60px;
+                }
+            
+            @include responsive(tab) {
+                margin: 10px 60px;
+            }
+        
+                @include responsive(phone) {
+                margin: 10px 60px;
+                    } 
+
+            a{
+                color: white;
+                font-style: italic;
+                font-weight: bold;
+
+                &:hover{
+                    color:#F3976C;
+                }
+            }     
+        }
 }
+
 .footer-bg{
     background:rgba(255, 255, 255, .7);
     display: flex;
