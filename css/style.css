@@ -1115,9 +1115,10 @@ article.intro .feedback p a:hover {
 }
 
 .bg-3 {
-  background: url(../img/atlanta-made-sign.jpg) no-repeat fixed 50%;
-  padding-top: 10%;
-  padding-bottom: 8%;
+  background: url(../img/atlanta-made-sign.jpg) repeat 50%;
+  background-size: 100% 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1136,16 +1137,16 @@ article.intro .feedback p a:hover {
 
 @media only screen and (max-width: 900px) {
   .bg-3 {
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-size: 100% 100%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .bg-3 {
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-size: 100% 100%;
   }
 }

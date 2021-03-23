@@ -540,9 +540,10 @@ article.intro{
 
 .bg-3{
     background: url(../img/atlanta-made-sign.jpg)
-    no-repeat fixed 50%;
-    padding-top: 10%;
-    padding-bottom: 8%;
+    repeat 50%;
+    background-size: 100% 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -550,13 +551,13 @@ article.intro{
     z-index: -1;
     
     @include responsive(tab) {
-        padding-top: 20%;
-        padding-bottom: 20%;
+        padding-top: 5%;
+        padding-bottom: 5%;
         background-size: 100% 100%;
     }
       @include responsive(phone) {
-        padding-top: 20%;
-        padding-bottom: 20%;
+        padding-top: 5%;
+        padding-bottom: 5%;
         background-size: 100% 100%;
           }   
 
