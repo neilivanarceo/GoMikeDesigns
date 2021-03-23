@@ -332,6 +332,7 @@
   color: black;
   margin-top: 20px;
   font-size: 12px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -353,7 +354,7 @@
 }
 
 .forms .information a {
-  color: white;
+  color: black;
   font-style: italic;
   font-weight: bold;
 }
@@ -363,7 +364,7 @@
 }
 
 .footer-bg {
-  background: rgba(255, 255, 255, 0.7);
+  background: #364577;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -384,6 +385,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  color: white;
 }
 
 .footer-bg .footer-logos {
@@ -400,68 +402,11 @@
 }
 
 .footer-bg .footer-logos .social a {
-  color: black;
+  color: white;
 }
 
 .footer-bg .footer-logos .social a:hover {
   color: gray;
   cursor: pointer;
-}
-
-.footer-bg .links {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-@media only screen and (max-width: 900px) {
-  .footer-bg .links {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .footer-bg .links {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-.footer-bg .links .link {
-  padding: 10px 50px;
-}
-
-.footer-bg .links .link ul {
-  padding-top: 10px;
-}
-
-.footer-bg .links .link li {
-  display: block;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 5px;
-}
-
-.footer-bg .links .link li a {
-  text-decoration: none;
-  color: black;
-}
-
-.footer-bg .links .link li a:hover {
-  text-decoration: underline;
 }
 /*# sourceMappingURL=contact.css.map */
