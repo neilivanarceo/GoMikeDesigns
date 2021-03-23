@@ -1115,7 +1115,7 @@ article.intro .feedback p a:hover {
 }
 
 .bg-3 {
-  background: url(../img/atlanta-made-sign.jpg) repeat 50%;
+  background: url(../img/atlanta-made-sign.jpg) repeat fixed 80%;
   background-size: 100% 100%;
   padding-top: 5%;
   padding-bottom: 5%;
