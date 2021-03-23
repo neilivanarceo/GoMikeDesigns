@@ -10,7 +10,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 .header{
     position: relative;
-    margin: 10px 250px;
+    margin: 2px 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -157,7 +157,6 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
                 #contact{
                     text-decoration: underline;
                 
-                    
                 }
 
                     a{
@@ -175,98 +174,81 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
        }
 }
     
-section.heading-bg{     
-    background: url(../img/atlanta-made-sign.jpg)
-    repeat fixed 50%;
-    background-size: 100% 100%;
+.heading-bg{      
+    height: 200px;
+    width: 100%;
+
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
+  
+
+.forms{
+    margin-left: 250px;
+    margin-right: 60%;
+    margin-top: 10px;
+    color:black;
+    display: flex;
+    flex-direction: column;
    
-
-    @include responsive(laptop) {
-        padding-top: 1%;
-        padding-bottom: 1%;
-        background-size: 100% 100%;
-    }
-    
-    @include responsive(tab) {
-        padding-top: 1%;
-        padding-bottom: 1%;
-        background-size: 100% 100%;
-    }
-
-      @include responsive(phone) {
-        padding-top: 1%;
-        padding-bottom: 1%;
-        background-size: 100% 100%;
-          }
-
-            .forms{
-                margin-left: 250px;
-                margin-right: 60%;
-                padding-top: 2%;
-                color:white;
-                display: flex;
-                flex-direction: column;
-               
-
-            @include responsive(laptop) {
-                margin: 0 60% 0 60px;
-                padding-top: 1%;
-            }
-        
-            @include responsive(tab) {
-                margin: 0 40% 0 40px;
-                padding-top: 1%;
-            }
-
-            @include responsive(phone) {
-                margin: 0 60px;
-                padding-top: 1%;
-            }   
-
-            .form-group{
-                margin-top: 10px;
-            
-            }
-
-            .form-group input,
-            .form-group textarea{
-                width: 100%;
-                padding: 5px;
-                font-size: 15px;
-                margin-top: 5px;
-                border-radius: 8px;
-            }
-
-            textarea{
-                resize: vertical;
-            }
-
-            button[type="submit"]{
-                width: 100%;
-                padding: 10px;
-                margin: 0 auto;
-                border-radius: 5px;
-                margin-top: 10px;
-                font-size: 18px;
-                background-color: #F3976C;
-                transition: .3s ease background-color;
-                color: black;
-                cursor: pointer;
-            }
-
-            button[type="submit"]:hover{
-                background-color: #b68166;
-            }
-
+        @include responsive(laptop) {
+            margin: 0 60% 0 60px;
+            padding-top: 1%;
         }
 
-        .information{
-        color: white;
-        margin-top: 20px;
-        font-size: 12px;
-        margin-left: 250px;
-        margin-right: 60%;
-        padding-bottom: 1%;
+        @include responsive(tab) {
+            margin: 0 40% 0 40px;
+            padding-top: 1%;
+        }
+
+        @include responsive(phone) {
+            margin: 0 60px;
+            padding-top: 1%;
+        }   
+
+.form-group{
+    margin-top: 10px;
+
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    border-radius: 8px;
+}
+
+textarea{
+    resize: vertical;
+}
+
+button[type="submit"]{
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+    background-color: #F3976C;
+    transition: .3s ease background-color;
+    color: black;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background-color: #b68166;
+}
+
+
+
+.information{
+    color: black;
+    margin-top: 20px;
+    font-size: 12px;
 
         @include responsive(laptop) {
             margin: 10px 60px;
@@ -288,11 +270,10 @@ section.heading-bg{
             &:hover{
                 color:#F3976C;
             }
-        }
-        }    
+        }     
+    }
+
 }
-
-
 .footer-bg{
     background:rgba(255, 255, 255, .7);
     display: flex;

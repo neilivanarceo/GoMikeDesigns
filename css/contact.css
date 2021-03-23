@@ -8,7 +8,7 @@
 
 .header {
   position: relative;
-  margin: 10px 250px;
+  margin: 2px 250px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -248,40 +248,21 @@
           box-shadow: 0 -5px 0px gray inset;
 }
 
-section.heading-bg {
-  background: url(../img/atlanta-made-sign.jpg) repeat fixed 50%;
-  background-size: 100% 100%;
+.heading-bg {
+  height: 200px;
+  width: 100%;
 }
 
-@media only screen and (max-width: 1400px) {
-  section.heading-bg {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    background-size: 100% 100%;
-  }
+.heading-bg img {
+  height: 100%;
+  width: 100%;
 }
 
-@media only screen and (max-width: 900px) {
-  section.heading-bg {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    background-size: 100% 100%;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  section.heading-bg {
-    padding-top: 1%;
-    padding-bottom: 1%;
-    background-size: 100% 100%;
-  }
-}
-
-section.heading-bg .forms {
+.forms {
   margin-left: 250px;
   margin-right: 60%;
-  padding-top: 2%;
-  color: white;
+  margin-top: 10px;
+  color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -292,32 +273,32 @@ section.heading-bg .forms {
 }
 
 @media only screen and (max-width: 1400px) {
-  section.heading-bg .forms {
+  .forms {
     margin: 0 60% 0 60px;
     padding-top: 1%;
   }
 }
 
 @media only screen and (max-width: 900px) {
-  section.heading-bg .forms {
+  .forms {
     margin: 0 40% 0 40px;
     padding-top: 1%;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  section.heading-bg .forms {
+  .forms {
     margin: 0 60px;
     padding-top: 1%;
   }
 }
 
-section.heading-bg .forms .form-group {
+.forms .form-group {
   margin-top: 10px;
 }
 
-section.heading-bg .forms .form-group input,
-section.heading-bg .forms .form-group textarea {
+.forms .form-group input,
+.forms .form-group textarea {
   width: 100%;
   padding: 5px;
   font-size: 15px;
@@ -325,11 +306,11 @@ section.heading-bg .forms .form-group textarea {
   border-radius: 8px;
 }
 
-section.heading-bg .forms textarea {
+.forms textarea {
   resize: vertical;
 }
 
-section.heading-bg .forms button[type="submit"] {
+.forms button[type="submit"] {
   width: 100%;
   padding: 10px;
   margin: 0 auto;
@@ -343,44 +324,41 @@ section.heading-bg .forms button[type="submit"] {
   cursor: pointer;
 }
 
-section.heading-bg .forms button[type="submit"]:hover {
+.forms button[type="submit"]:hover {
   background-color: #b68166;
 }
 
-section.heading-bg .information {
-  color: white;
+.forms .information {
+  color: black;
   margin-top: 20px;
   font-size: 12px;
-  margin-left: 250px;
-  margin-right: 60%;
-  padding-bottom: 1%;
 }
 
 @media only screen and (max-width: 1400px) {
-  section.heading-bg .information {
+  .forms .information {
     margin: 10px 60px;
   }
 }
 
 @media only screen and (max-width: 900px) {
-  section.heading-bg .information {
+  .forms .information {
     margin: 10px 60px;
   }
 }
 
 @media only screen and (max-width: 600px) {
-  section.heading-bg .information {
+  .forms .information {
     margin: 10px 60px;
   }
 }
 
-section.heading-bg .information a {
+.forms .information a {
   color: white;
   font-style: italic;
   font-weight: bold;
 }
 
-section.heading-bg .information a:hover {
+.forms .information a:hover {
   color: #F3976C;
 }
 
