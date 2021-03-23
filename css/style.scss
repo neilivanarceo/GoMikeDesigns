@@ -179,7 +179,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     background: url(../img/atlanta-made-sign.jpg)
     repeat fixed 50%;
     padding-top: 6%;
-    padding-bottom: 6%;
+    padding-bottom: 10%;
     
     @include responsive(laptop) {
         padding-top: 5%;
@@ -203,7 +203,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             align-items: center;
             
 
-                h1{
+                .name{
                     color: black;
                     font-size: 30px;
                     margin-top: 10px;
@@ -245,7 +245,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 article.intro{
-    margin: 50px 250px;
+    margin: 20px 250px;
     @include margin30;
 
     .quote{
@@ -272,7 +272,7 @@ article.intro{
         flex-direction: row;
         justify-content: space-around;
         align-items: center ;
-        padding-top: 30px; 
+        padding-top: 5px; 
         @include flex-column;
        
     
@@ -350,13 +350,12 @@ article.intro{
                     a{
                         font-weight: bold;
                         font-style: italic;
-                        
-                        text-decoration: none;
+                        text-decoration: underline;
 
                         &:hover{
                            
                             cursor: pointer;
-                            text-decoration: underline;
+                            text-decoration: none;
                             }
                     }
             }
@@ -417,14 +416,14 @@ article.intro{
                             color: white;
                             
                             a{
-                                color: rgb(194, 187, 187);
-                              
+                                color: white;
                                 font-style: italic;
-                                text-decoration: none;
+                                text-decoration: underline;
+
                                 &:hover{
-                                    text-decoration:underline;
+                                    text-decoration: none;
                                     cursor: pointer;
-                                  color: white;
+                                 
                                     }
                                 
                             }
@@ -456,7 +455,7 @@ article.intro{
                 justify-content: center;
                 @include margin30;
 
-                h1{
+                h2{
                     width: auto;
                     margin-bottom: 20px;
                     font-size: 25px;
@@ -493,6 +492,28 @@ article.intro{
                 .dog{
                     @include client-pictures;
                     grid-area: p1;
+                
+                    .zoompic{
+                        display:none;
+                        position: fixed;
+                        z-index: 999;
+                        width: 100%;
+                        height: 100%;
+                        text-align: center;
+                        top: 0;
+                        left: 0;
+                        background: rgba(0,0,0, .8);
+
+                            img{
+                                width: 40%;
+                                height: 60%;
+                                margin-top: 2%;
+                        }
+                    }
+                    .zoompic:target{
+                        display:block;
+                        outline: none;
+                    }
                 }
 
                 .cupcakes{
