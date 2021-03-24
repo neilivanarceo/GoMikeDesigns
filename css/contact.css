@@ -274,21 +274,21 @@
 
 @media only screen and (max-width: 1400px) {
   .forms {
-    margin: 0 60% 0 60px;
+    margin: 10px 60% 20px 60px;
     padding-top: 1%;
   }
 }
 
 @media only screen and (max-width: 900px) {
   .forms {
-    margin: 0 40% 0 40px;
+    margin: 10px 40% 20px 40px;
     padding-top: 1%;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .forms {
-    margin: 0 60px;
+    margin: 10px 60px 20px 60px;
     padding-top: 1%;
   }
 }
