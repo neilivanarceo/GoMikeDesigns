@@ -259,9 +259,7 @@
 }
 
 .forms {
-  margin-left: 250px;
-  margin-right: 60%;
-  margin-top: 10px;
+  margin: 10px 55% 20px 230px;
   color: black;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -270,6 +268,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-shadow: 0px 2px 20px #d3cfcf;
+          box-shadow: 0px 2px 20px #d3cfcf;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -295,6 +295,8 @@
 
 .forms .form-group {
   margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .forms .form-group input,
@@ -311,9 +313,9 @@
 }
 
 .forms button[type="submit"] {
-  width: 100%;
+  width: 90%;
   padding: 10px;
-  margin: 0 auto;
+  margin: 0 20px;
   border-radius: 5px;
   margin-top: 10px;
   font-size: 18px;
@@ -333,23 +335,25 @@
   margin-top: 20px;
   font-size: 12px;
   margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 @media only screen and (max-width: 1400px) {
   .forms .information {
-    margin: 10px 60px;
+    margin: 10px 20px;
   }
 }
 
 @media only screen and (max-width: 900px) {
   .forms .information {
-    margin: 10px 00px;
+    margin: 10px 20px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .forms .information {
-    margin: 10px 0px;
+    margin: 10px 20px;
   }
 }
 

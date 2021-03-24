@@ -185,12 +185,11 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
   
 .forms{
-    margin-left: 250px;
-    margin-right: 60%;
-    margin-top: 10px;
+    margin: 10px 55% 20px 230px;
     color:black;
     display: flex;
     flex-direction: column;
+    box-shadow: 0px 2px 20px rgb(211, 207, 207);
    
         @include responsive(laptop) {
             margin: 0 60% 0 60px;
@@ -209,6 +208,8 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
     .form-group{
     margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 
     }
 
@@ -223,12 +224,13 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
     textarea{
         resize: vertical;
+        
     }
 
     button[type="submit"]{
-        width: 100%;
+        width: 90%;
         padding: 10px;
-        margin: 0 auto;
+        margin: 0 20px;
         border-radius: 5px;
         margin-top: 10px;
         font-size: 18px;
@@ -236,6 +238,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         transition: .3s ease background-color;
         color: black;
         cursor: pointer;
+        
     }
 
     button[type="submit"]:hover{
@@ -249,17 +252,19 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         margin-top: 20px;
         font-size: 12px;
         margin-bottom: 20px;
+        margin-left: 20px;
+    margin-right: 20px;
 
             @include responsive(laptop) {
-                margin: 10px 60px;
+                margin: 10px 20px;
                 }
             
             @include responsive(tab) {
-                margin: 10px 00px;
+                margin: 10px 20px;
             }
         
                 @include responsive(phone) {
-                margin: 10px 0px;
+                margin: 10px 20px;
                     } 
 
             a{
