@@ -184,7 +184,20 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     }
 }*/
     h1{
-        margin: 20px 30% 10px 230px;;
+        margin: 20px 30% 10px 230px;
+
+        @include responsive(laptop) {
+            margin: 20px 60% 10px 40px;
+         
+        }
+
+        @include responsive(tab) {
+            margin: 20px 40% 10px 40px;
+        }
+
+        @include responsive(phone) {
+            margin: 20px 60px 10px 40px;
+        }
     }
     .forms{
         margin: 10px 55% 20px 230px;
@@ -204,7 +217,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
             }
 
             @include responsive(phone) {
-                margin: 10px 60px 20px 60px;
+                margin: 10px 60px 20px 40px;
                 padding-top: 1%;
             }   
 

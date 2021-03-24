@@ -262,6 +262,24 @@ h1 {
   margin: 20px 30% 10px 230px;
 }
 
+@media only screen and (max-width: 1400px) {
+  h1 {
+    margin: 20px 60% 10px 40px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  h1 {
+    margin: 20px 40% 10px 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    margin: 20px 60px 10px 40px;
+  }
+}
+
 .forms {
   margin: 10px 55% 20px 230px;
   color: black;
@@ -292,7 +310,7 @@ h1 {
 
 @media only screen and (max-width: 600px) {
   .forms {
-    margin: 10px 60px 20px 60px;
+    margin: 10px 60px 20px 40px;
     padding-top: 1%;
   }
 }
