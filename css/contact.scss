@@ -10,7 +10,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 .header{
     position: relative;
-    margin: 2px 250px;
+    margin: 10px 250px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -173,7 +173,7 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
            }
        }
 }
-    
+    /*
 .heading-bg{      
     height: 350px;
     width: 100%;
@@ -182,102 +182,104 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
         height: 100%;
         width: 100%;
     }
-}
-  
-.forms{
-    margin: 10px 55% 20px 230px;
-    color:black;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0px 2px 20px rgb(211, 207, 207);
-   
-        @include responsive(laptop) {
-            margin: 10px 60% 20px 60px;
-            padding-top: 1%;
-        }
-
-        @include responsive(tab) {
-            margin: 10px 40% 20px 40px;
-            padding-top: 1%;
-        }
-
-        @include responsive(phone) {
-            margin: 10px 60px 20px 60px;
-            padding-top: 1%;
-        }   
-
-    .form-group{
-    margin-top: 10px;
-    margin-left: 20px;
-    margin-right: 20px;
-
+}*/
+    h1{
+        margin: 20px 30% 10px 230px;;
     }
-
-    .form-group input,
-    .form-group textarea{
-        width: 100%;
-        padding: 5px;
-        font-size: 15px;
-        margin-top: 5px;
-        border-radius: 8px;
-    }
-
-    textarea{
-        resize: vertical;
-        
-    }
-
-    button[type="submit"]{
-        width: 90%;
-        padding: 10px;
-        margin: 0 20px;
-        border-radius: 5px;
-        margin-top: 10px;
-        font-size: 18px;
-        background-color: #F3976C;
-        transition: .3s ease background-color;
-        color: black;
-        cursor: pointer;
-        
-    }
-
-    button[type="submit"]:hover{
-        background-color: #b68166;
-    }
-
-
-
-    .information{
-        color: black;
-        margin-top: 20px;
-        font-size: 12px;
-        margin-bottom: 20px;
-        margin-left: 20px;
-    margin-right: 20px;
-
+    .forms{
+        margin: 10px 55% 20px 230px;
+        color:black;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0px 2px 20px rgb(211, 207, 207);
+    
             @include responsive(laptop) {
-                margin: 10px 20px;
+                margin: 10px 60% 20px 60px;
+                padding-top: 1%;
+            }
+
+            @include responsive(tab) {
+                margin: 10px 40% 20px 40px;
+                padding-top: 1%;
+            }
+
+            @include responsive(phone) {
+                margin: 10px 60px 20px 60px;
+                padding-top: 1%;
+            }   
+
+        .form-group{
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        }
+
+        .form-group input,
+        .form-group textarea{
+            width: 100%;
+            padding: 5px;
+            font-size: 15px;
+            margin-top: 5px;
+            border-radius: 8px;
+        }
+
+        textarea{
+            resize: vertical;
+            
+        }
+
+        button[type="submit"]{
+            width: 90%;
+            padding: 10px;
+            margin: 0 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-size: 18px;
+            background-color: #F3976C;
+            transition: .3s ease background-color;
+            color: black;
+            cursor: pointer;
+            
+        }
+
+        button[type="submit"]:hover{
+            background-color: #b68166;
+        }
+
+
+
+        .information{
+            color: black;
+            margin-top: 20px;
+            font-size: 12px;
+            margin-bottom: 20px;
+            margin-left: 20px;
+        margin-right: 20px;
+
+                @include responsive(laptop) {
+                    margin: 10px 20px;
+                    }
+                
+                @include responsive(tab) {
+                    margin: 10px 20px;
                 }
             
-            @include responsive(tab) {
-                margin: 10px 20px;
+                    @include responsive(phone) {
+                    margin: 10px 20px;
+                        } 
+
+                a{
+                    color: black;
+                    font-style: italic;
+                    font-weight: bold;
+
+                    &:hover{
+                        color:#F3976C;
+                    }
+                }     
             }
-        
-                @include responsive(phone) {
-                margin: 10px 20px;
-                    } 
-
-            a{
-                color: black;
-                font-style: italic;
-                font-weight: bold;
-
-                &:hover{
-                    color:#F3976C;
-                }
-            }     
-        }
-}
+    }
 
 .footer-bg{
     background:rgb(54, 69, 119);
