@@ -343,13 +343,13 @@
 
 @media only screen and (max-width: 900px) {
   .forms .information {
-    margin: 10px 60px;
+    margin: 10px 00px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .forms .information {
-    margin: 10px 60px;
+    margin: 10px 0px;
   }
 }
 
