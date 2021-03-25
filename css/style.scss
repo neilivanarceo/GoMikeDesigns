@@ -578,7 +578,7 @@ article.intro{
                 }
 
                 .contact-2{   
-                    color: blackxxx;
+                    color: black;
                     border: 1px solid black;
                     padding: 15px;
                     width: 140px;
@@ -589,6 +589,7 @@ article.intro{
                     margin-top: 20px;
                     transition: .3s ease background-color;
                     cursor: pointer;
+                    text-decoration: none;
 
                     @include responsive(tab) {
                         padding: 10px;
